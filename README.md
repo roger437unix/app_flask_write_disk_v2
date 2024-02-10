@@ -1,13 +1,30 @@
-1. Ativar o ambiente virtual [Windows]
-$ source .venv/Scripts/activate
+![](https://static.javatpoint.com/tutorial/flask/images/flask-tutorial.png)
 
-2. Instalar os requerimentos
-$ pip install -r requirements.txt
-or
-$ pip install flask
 
-3. Executar a aplicação
-$ python app.py
+# Agenda Flask Python Gravando em Disco v2
 
-4. Para sair do ambiente virtual Python
-$ deactivate
+
+### 1. Criar ambiente virtual
+
+*python -m venv .venv*
+
+
+### 2. Ativar o ambiente virtual
+
+*source .venv/bin/activate*     ==> Linux <br/>
+*source .venv/Scripts/activate* ==> Windows
+
+
+### 3. Instalar os requisitos
+
+*pip install -r requirements.txt*
+
+
+### 4. Executar a aplicação
+
+*python app.py*
+
+
+### 5. Para sair do ambiente virtual Python
+
+*deactivate*
